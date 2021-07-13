@@ -1,0 +1,111 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common styles & utilities */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------
+    header style 
+---------------------*/
+.banner-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2D25A0;
+    padding: 100px 0 86px 0;
+}
+.section-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    margin-right: 50px;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+}
+button{
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    margin-top: 27px;
+    transition: 1.5s;
+}
+button p{
+    margin: 0 8px 0 0;
+}
+button:hover{
+    background-color: yellowgreen;
+    transform: translate(40px) scale(1.1);
+}
+/* ----------------------
+    players section style 
+-------------------------- */
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.players-unit-1,.players-unit-2,.players-unit-3,.players-unit-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 27px;
+    width: 1050px;
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+    padding: 15px;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ----------------------
+    footer section style 
+-------------------------- */
+footer{
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+}
+.social-icons{
+    margin-top: 10px;
+}
+.social-icons a{
+    color: #8e92a1;
+    background-color: rgba(0,0,0,.1);
+    padding: 7px 11px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
