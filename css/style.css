@@ -67,12 +67,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 70px;
 }
 .players-unit-1,.players-unit-2,.players-unit-3,.players-unit-4{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 27px;
+    grid-column-gap: 30px;
     width: 1050px;
 }
 .player{
@@ -88,12 +88,13 @@ body{
     font-weight: 700;
     color: #18191F;
     margin-top: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .player p{
     color: #6C6C6C;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 5px;
 }
 /* ----------------------
     funfact section style 
@@ -104,8 +105,8 @@ body{
     padding: 80px 0 80px 0;
     background-color: #10437A;
     color: #FFFFFF;
-    margin: 5% 0; 
-    box-shadow: 0px 0px 10px #10437A;
+    margin: 82px 0; 
+    box-shadow: 0px 0px 10px #29313a;
 }
 .funfact-area .funfact-item{
     width: 160px;
@@ -175,14 +176,14 @@ body{
 -------------------------- */
 footer{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 footer img{
     width: 483px;
     height: 110px;
 }
 .social-icons{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .social-icons a{
     color: #8e92a1;
@@ -267,6 +268,9 @@ footer p{
     /* ----------------------
         blog section style 
     -------------------------- */
+    .latest-blog{
+        padding: 0 0 50px 0;
+    }
     .blogs{
         display: flex;
         flex-direction: column;
