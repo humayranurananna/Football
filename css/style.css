@@ -1,7 +1,7 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-/* common styles & utilities */
+/* common styles */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -44,7 +44,6 @@ body{
     background-color: yellowgreen;
     transform: translate(40px) scale(1.1);
 }
-
 .banner-image img{
     width: 556px;
     height: 438px;
@@ -203,6 +202,9 @@ footer p{
 
 /* Mobile devices */
 @media only screen and (max-width:688px) {
+    /* ------------------
+        header style 
+    ---------------------*/
     .banner-area{
         padding: 112px 0 62px 0;
         display: flex;
@@ -234,6 +236,9 @@ footer p{
             transform: rotate(45deg);
         }   
     }
+    /* ----------------------
+        players section style 
+    -------------------------- */
     .players{
         margin-top: 47px;
     }
@@ -246,17 +251,30 @@ footer p{
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         margin-bottom: 24px;
     }
+    /* ----------------------
+        funfact section style 
+    -------------------------- */
     .funfact-area{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
     .funfact-area .funfact-item{
         width: 160px;
         text-align: center;
         margin-bottom: 10%;
     }
+    /* ----------------------
+        blog section style 
+    -------------------------- */
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ----------------------
+        footer section style 
+    -------------------------- */
     footer{
         width: 100%;
         margin-bottom: 30px;
@@ -265,10 +283,6 @@ footer p{
         width: 250px;
         height: auto;
     }
-    .blogs{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
 }
 
