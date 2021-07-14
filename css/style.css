@@ -17,7 +17,7 @@ body{
     padding: 150px 0;
 }
 .banner-area .section-details{
-    margin-right: 2%;
+    margin-right: 5%;
 }
 .banner-area .section-title{
     font-size: 60px;
@@ -44,15 +44,23 @@ body{
     background-color: yellowgreen;
     transform: translate(40px) scale(1.1);
 }
+
 .banner-image img{
     width: 556px;
     height: 438px;
-    margin-left: 10%;
-    transition: 1.2s;   
+    animation: img-anim 2s ease-out 
+    infinite;
 }
-.banner-image img:hover{
-    transform: scale(1.1);
+@keyframes img-anim{
+    from{
+        width: 556px;
+        height: 438px;
+    }
+    to{
+        transform: rotate(45deg);
+    }   
 }
+
 /* ----------------------
     players section style 
 -------------------------- */
@@ -214,6 +222,17 @@ footer p{
         width: 329px;
         height: 259px;
         margin: 0;
+        animation: img-anim 2s ease-out 
+        infinite;
+    }
+    @keyframes img-anim{
+        from{
+            width: 329px;
+            height: 259px;  
+        }
+        to{
+            transform: rotate(45deg);
+        }   
     }
     .players{
         margin-top: 47px;
